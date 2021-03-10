@@ -63,15 +63,15 @@
               <th>Usia</th>
             </tr>
           </thead>
-          <!-- <tbody> -->
-            <? foreach ($murids as $murid) : ?>
+          <tbody>
+            <?php foreach ($murids as $murid) : ?>
               <tr>
-                <td><? echo $murid['nm'] ?></td>
-                <td><? echo $murid['nim'] ?></td>
-                <td><? echo $murid['usia'] ?></td>
+                <td><?php echo $murid['nm'] ?></td>
+                <td><?php echo $murid['nim'] ?></td>
+                <td><?php echo $murid['usia'] ?></td>
               </tr>
-            <? endforeach; ?>
-          <!-- </tbody> -->
+            <?php endforeach; ?>
+          </tbody>
         </table>
 
     </body>
