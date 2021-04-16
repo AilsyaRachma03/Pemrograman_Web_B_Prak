@@ -1,6 +1,6 @@
 <?php
-    require_once 'why/config.php';
-    require_once 'why/Database.php';
+    require_once 'app/config.php';
+    require_once 'app/Database.php';
     $db = new Database;
     $mahasiswa = $db->queryResult('SELECT * FROM mahasiswa');
     // var_dump($mahasiswa->nama);
