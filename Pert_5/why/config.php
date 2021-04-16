@@ -1,6 +1,7 @@
 <?php
      
     // define('BASE_URL', 'http://localhost:2000/Belajar PHP/PDO');
+    define('BASE_URL', 'http://localhost:2000/pemweb_prak_b/pertemuan_5_pdo');
 
     // db
     define('DB_HOST', 'localhost');
